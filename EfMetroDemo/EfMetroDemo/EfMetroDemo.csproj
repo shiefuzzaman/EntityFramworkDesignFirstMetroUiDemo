@@ -72,27 +72,16 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DemoModel.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="DemoModel.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DemoModel.tt</DependentUpon>
-    </Compile>
     <Compile Include="DemoModel.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DemoModel.edmx</DependentUpon>
     </Compile>
-    <Compile Include="Department.cs">
-      <DependentUpon>DemoModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Employee.cs">
-      <DependentUpon>DemoModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
     <Compile Include="frmManageDepartment.cs">
       <SubType>Form</SubType>
@@ -102,8 +91,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmManageDepartment.resx">
       <DependentUpon>frmManageDepartment.cs</DependentUpon>
@@ -141,15 +130,17 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>DemoModel.edmx</DependentUpon>
       <LastGenOutput>DemoModel.Context.cs</LastGenOutput>
-    </Content>
-    <Content Include="DemoModel.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>DemoModel.edmx</DependentUpon>
-      <LastGenOutput>DemoModel.cs</LastGenOutput>
+      <CustomToolNamespace>EfMetroDemo.Entity</CustomToolNamespace>
     </Content>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EfMetroDemo.Entity\EfMetroDemo.Entity.csproj">
+      <Project>{7f88813f-e820-4412-83e8-654a5f987d56}</Project>
+      <Name>EfMetroDemo.Entity</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

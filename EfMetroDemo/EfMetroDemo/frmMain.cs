@@ -6,22 +6,22 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using EfMetroDemo.Entity;
 using MetroFramework;
 
 namespace EfMetroDemo
 {
     
-    public partial class Form1 : MetroFramework.Forms.MetroForm
+    public partial class frmMain : MetroFramework.Forms.MetroForm
     {        
-        public Form1()
+        public frmMain()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void frmMain_Load(object sender, EventArgs e)
         {
-            InitializeDepartmentList();
-            LoadEmployees();
+            InitializeDepartmentList();            
         }
 
         private void InitializeDepartmentList()
@@ -118,6 +118,11 @@ namespace EfMetroDemo
                 RefreshDepartmentList = InitializeDepartmentList
             };                   
             frmManageDepartment.Show(this);
+        }
+
+        private void metroButtonLoad_Click(object sender, EventArgs e)
+        {
+            LoadEmployees();
         }
     }
 }

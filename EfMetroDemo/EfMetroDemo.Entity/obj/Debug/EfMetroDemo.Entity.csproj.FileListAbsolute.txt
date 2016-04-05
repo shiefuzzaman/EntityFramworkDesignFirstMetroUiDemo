@@ -1,0 +1,10 @@
+C:\Users\MSZ\Documents\Visual Studio 2015\Projects\EfMetroDemo\EfMetroDemo.Entity\bin\Debug\EfMetroDemo.Entity.dll.config
+C:\Users\MSZ\Documents\Visual Studio 2015\Projects\EfMetroDemo\EfMetroDemo.Entity\bin\Debug\EfMetroDemo.Entity.dll
+C:\Users\MSZ\Documents\Visual Studio 2015\Projects\EfMetroDemo\EfMetroDemo.Entity\bin\Debug\EfMetroDemo.Entity.pdb
+C:\Users\MSZ\Documents\Visual Studio 2015\Projects\EfMetroDemo\EfMetroDemo.Entity\bin\Debug\EntityFramework.dll
+C:\Users\MSZ\Documents\Visual Studio 2015\Projects\EfMetroDemo\EfMetroDemo.Entity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MSZ\Documents\Visual Studio 2015\Projects\EfMetroDemo\EfMetroDemo.Entity\bin\Debug\EntityFramework.xml
+C:\Users\MSZ\Documents\Visual Studio 2015\Projects\EfMetroDemo\EfMetroDemo.Entity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MSZ\Documents\Visual Studio 2015\Projects\EfMetroDemo\EfMetroDemo.Entity\obj\Debug\EfMetroDemo.Entity.csprojResolveAssemblyReference.cache
+C:\Users\MSZ\Documents\Visual Studio 2015\Projects\EfMetroDemo\EfMetroDemo.Entity\obj\Debug\EfMetroDemo.Entity.dll
+C:\Users\MSZ\Documents\Visual Studio 2015\Projects\EfMetroDemo\EfMetroDemo.Entity\obj\Debug\EfMetroDemo.Entity.pdb

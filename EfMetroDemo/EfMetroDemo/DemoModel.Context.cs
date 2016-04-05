@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace EfMetroDemo
+namespace EfMetroDemo.Entity
 {
     using System;
     using System.Data.Entity;

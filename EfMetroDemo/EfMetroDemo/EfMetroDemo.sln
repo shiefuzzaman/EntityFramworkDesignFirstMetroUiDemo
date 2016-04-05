@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.24627.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfMetroDemo", "EfMetroDemo.csproj", "{2EE57391-8C34-4C11-B188-7264168F33CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfMetroDemo.Entity", "..\EfMetroDemo.Entity\EfMetroDemo.Entity.csproj", "{7F88813F-E820-4412-83E8-654A5F987D56}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2EE57391-8C34-4C11-B188-7264168F33CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EE57391-8C34-4C11-B188-7264168F33CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EE57391-8C34-4C11-B188-7264168F33CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F88813F-E820-4412-83E8-654A5F987D56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F88813F-E820-4412-83E8-654A5F987D56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F88813F-E820-4412-83E8-654A5F987D56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F88813F-E820-4412-83E8-654A5F987D56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
